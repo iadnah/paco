@@ -1,0 +1,6 @@
+fnew.png:new_file:new_file:Create a blank text buffer in a new tab.
+fopen.png:open_file:open_file:Open a file in a new tab.
+save.png:save_file:save_file:Save the current file.
+exec.png:execute_external:execute_external:Pipe the current buffer to a command of your choice and display the results.
+php_exec.png:execute_php_expression:execute_php_expression:Apply a PHP expression to the current buffer.
+help2.png:show_help:show_help:View the documentation for Paco.
