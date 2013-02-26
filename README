@@ -1,0 +1,24 @@
+paco - php-gtk text editor for programmers
+==============================================================
+
+### OBSOLETE
+Paco is largely obsolete. The dependencies it requires are not available on modern systems (php-gtk2 was discontinued).
+
+### SYNOPSIS
+Paco's a graphical text editor aimed towards programmers. It has most of the features expected in such a text editor, plus a few extra. The only 
+thing I personally think it's lacking is syntax highlighting, which is the next major planned improvement.
+
+As far as special or notable things about the program, there are a few. For one, it's written entirely in PHP. I believe it may actually be one of 
+the only, if not the first, real desktop application written in PHP. It needs some testing and debugging, as such. I've managed to get it to work 
+fine on my desktop (Slackware 11.0) and my laptop (Gentoo-pcc 2006.1) with PHP compiled as a CLI with POSIX support. The POSIX support, I might add, 
+is not needed. Only one function actually uses it. It's there as a part of future additions. Ideally, it will be removed, making Paco fully cross 
+platform.
+
+In addition to that, Paco includes a feature called double view, which lets you open a text file in two different panes. One pane is an editing 
+pane, while the other is a special viewing pane. The contents of the viewing pane are updated as you type, so it will always show the current state 
+of the file you're editing. So how is it useful? You can scroll through the viewing pane to look at a different part of the same text file you are 
+editing, like if you need to look back at a function you already wrote to see what arguments it takes, or if you need to see what you called some 
+variable or something like that.
+
+Oh, and to use Paco you'll need to have GTK 2.x+ installed, as well as gtksourceview (if you have gnome installed, you have this), and PHP-GTK-2.x 
+(available from gtk.php.net).
